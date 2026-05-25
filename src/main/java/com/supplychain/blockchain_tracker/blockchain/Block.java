@@ -25,7 +25,7 @@ public class Block {
         this.hash = calculateHash();
     }
 
-    private String calculateHash() {
+    public String calculateHash() {
         String input = index + timestamp + data + previousHash;
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
