@@ -37,7 +37,7 @@ public class Block {
             }
             return hexString.toString();
         } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException("SHA-256 alogirhtm was not found!", e);
+            throw new RuntimeException("SHA-256 algorithm was not found!", e);
         }
     }
 }
