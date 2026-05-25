@@ -36,7 +36,7 @@ public class ChainEvent {
     private Instant occurredAt;
 
     @Column(nullable = false)
-    private String blockIndex;
+    private int blockIndex;
 
     @Column(nullable = false)
     private String blockHash;

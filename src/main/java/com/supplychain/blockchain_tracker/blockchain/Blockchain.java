@@ -37,7 +37,7 @@ public class Blockchain {
             }
 
             // Check 2: does this block's previousHash actually point to the previous block?
-            if (!current.getPreviousHash().equals(current.getHash())) {
+            if (!current.getPreviousHash().equals(previous.getHash())) {
                 return false;
             }
         }
